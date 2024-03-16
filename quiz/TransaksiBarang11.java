@@ -28,7 +28,7 @@ public class TransaksiBarang11 {
             System.out.print("Apakah akan belanjan kembali (y/n) ? ");
             pil = input.next();
             if(pil.equalsIgnoreCase("y")){
-                System.out.print("Masukkan kode barag :");
+                System.out.print("Masukkan kode barang :");
                 kode = input.next();
                 if(barang11.checkKode(kode, data)){
                     pembelian[counter] = new TransaksiBarang11(kode);
