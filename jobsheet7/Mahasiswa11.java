@@ -12,6 +12,7 @@ public class Mahasiswa11 {
     }
 
     void tampil() {
+        
         System.out.println("Nim = " + nim);
         System.out.println("Nama = " + nama);
         System.out.println("Umur = " + umur);
